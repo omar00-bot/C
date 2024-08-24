@@ -6,17 +6,17 @@ int increment(int A[],int size)
     for(i=0; i<size; i++)
     {
         A[i]=A[i]+1;
+        printf( "A[i] = %d\n", A[i]);
     }
 }
 int main()
 {
     int A[]={1,2,3,4,5};
     int size = sizeof(A)/sizeof(A[0]);
+    increment(A,size);
     int i;
-    for(i=0;i<5;i++);
+    for(i=0;i<5;i++)
     {
-        increment(&A[i],size);
-        printf("%d, \n",A[i]);
+        printf("%d, ",A[i]);
     }
-    return 0;
 }
