@@ -59,5 +59,6 @@
   "files.associations": {
     "*.ejs": "html",
     "stdlib.h": "c"
-  }
+  },
+  "C_Cpp.errorSquiggles": "disabled"
 }
